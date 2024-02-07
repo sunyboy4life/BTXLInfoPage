@@ -1,0 +1,64 @@
+/* Grundlegende Reset-Einstellungen */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h3 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* Container für den Inhalt */
+#content {
+    margin: auto;
+    max-width: 1000px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+figcaption {
+    margin-top: 8px;
+    font-style: italic;
+    color: #666;
+}
+
+/* Stil für Überschriften und Text */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+h3 {
+    color: #555;
+}
+
+p, figcaption {
+    font-size: 16px;
+}
+
+/* Zusätzliche Stile können hier hinzugefügt werden */
